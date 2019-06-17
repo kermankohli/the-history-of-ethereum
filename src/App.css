@@ -1,0 +1,275 @@
+/* CSS Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+    cursor: pointer;
+}
+
+
+/* Font faces */
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Styles */
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 16px;
+    background: #000000;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+hr {
+    border: none;
+    background: #DBDBDB;
+    height: 1px;
+}
+
+
+/* Headers */
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 3.25em;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 0.5em 0;
+    letter-spacing: 0.08em;
+    color: white;
+}
+
+h2 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: #8C8C8C;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: #8C8C8C;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1em;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    line-height: 1.5em;
+}
+
+
+/* Containers */
+
+#root,
+.App {
+    height: 100%;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 0.5em 6em;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        padding: 0.5em 2em;
+    }
+    h1 {
+        font-size: 2em;
+        line-height: 1.25em;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    h3, h4 {
+        font-size: 1.3em;
+        letter-spacing: 0.2em;
+    }
+    h5 {
+        font-size: 1.1em;
+    }
+    html {
+        font-size: 12px;
+        height: 100%;
+    }
+}
