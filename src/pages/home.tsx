@@ -27,12 +27,7 @@ const timelineStyles = StyleSheet.create({
 class Home extends React.Component {
   
   sortedObjects() {
-    // let sortedDates = EVENT_LIST.sort((a, b) => {
-    //   return (
-    //     Date.parse(a.date) - Date.parse(b.date)
-    //   );
-    // });
-
+    // TODO: Implement proper sorting by date
     return EVENT_LIST;
   }
 
