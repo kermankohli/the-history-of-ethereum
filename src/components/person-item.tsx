@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   imageContainer: {
-    maxWidth: '5em'
+    maxWidth: '4em'
   },
   textContainer: {
     marginTop: '0.5em'
