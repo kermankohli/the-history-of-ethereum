@@ -9,14 +9,14 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "December 1, 2013",
     "title": "First response",
-    "description": "First to respond to @vitalikbuterin's whitepaper get on Skype calls with him to plan Ethereum's first steps. They decide to meet in Miami for the North American Bitcoin Conference in January",
+    "description": "First to respond to @vitalikbuterin's whitepaper, including @diiorioanthony, @IOHK_Charles, @MihaiAlisie and Amir Chetrit, get on Skype calls with him to plan Ethereum's first steps. They decide to meet in Miami for the North American Bitcoin Conference in January",
     "link": "",
     "people": "Anthony Di Iorio, Charles Hoskinson, Vitalik Buterin, Mihai Alisie, Amir Chetrit"
   },
   {
     "date": "December 19, 2013",
     "title": "Gavin Wood reaches out",
-    "description": "@gavofyork reaches out to Vitalik Buterin, volunteers to start writing the C++ client. Meanwhile Jeffrey Wilcke is writing the Go client in Amsterdam",
+    "description": "@gavofyork reaches out to Vitalik Buterin, volunteers to start writing the C++ client. Meanwhile @jeffehh is writing the Go client in Amsterdam",
     "link": "https://twitter.com/VitalikButerin/status/895518902817480708/photo/1",
     "people": "Gavin Wood, Jeffrey Wilcke"
   },
@@ -30,7 +30,7 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "January 7, 2014",
     "title": "Miami",
-    "description": "The four people who initially responded to Vitalik's whitepaper and about a dozen others meet in a house in Miami rented by Anthony Di Iorio",
+    "description": "Those who initially responded to Vitalik's whitepaper and about a dozen others meet in a house in Miami rented by Anthony Di Iorio",
     "link": "",
     "people": "Gavin Wood, Joe Lubin, Amir Taaki, Wendell Davis, Taylor Gerring, Anthony D'Onofrio, Anthony Di Iorio, Charles Hoskinson, Vitalik Buterin, Mihai Alisie, Amir Chetrit, others"
   },
@@ -42,18 +42,11 @@ export const EVENT_LIST: IEvent[] = [
     "people": "Vitalik Buterin"
   },
   {
-    "date": "March 5, 2014",
-    "title": "Switzerland",
-    "description": "Non-core dev part of Ethereum team moves to the house in Greenbachstrasse in Zug, Switzerland",
+    "date": "February 1, 2014",
+    "title": "Proof of Concept 3",
+    "description": "Ethereum Proof of Concept 3 launches. C++ and Go implemntations can synch for the first time",
     "link": "",
-    "people": "Mihai Alisie, Roxana Sureanu, Charles Hoskinson, Jeremy Wood, Taylor Gerring, Mathias Gronneabaek, Stephan Tual, others"
-  },
-  {
-    "date": "March 1, 2014",
-    "title": "Legals",
-    "description": "Ethereum team works with Zug-based law firm MME to structure crowdsale",
-    "link": "",
-    "people": "Charles Hoskinson, Mihai Alisie, Luka Muller, Samuel Bussmann"
+    "people": "Gavin Wood, Jeffrey Wilcke"
   },
   {
     "date": "February 28, 2014",
@@ -63,12 +56,19 @@ export const EVENT_LIST: IEvent[] = [
     "people": "MIhai Alisie"
   },
   {
-    "date": "February 1, 2014",
-    "title": "Proof of Concept 3",
-    "description": "Ethereum Proof of Concept 3 launches. C++ and Go implemntations can synch for the first time",
+    "date": "March 1, 2014",
+    "title": "Legals",
+    "description": "Ethereum team works with Zug-based law firm MME to structure crowdsale",
     "link": "",
-    "people": "Gavin Wood, Jeffrey Wilcke"
+    "people": "Charles Hoskinson, Mihai Alisie, Luka Muller, Samuel Bussmann"
   },
+  {
+    "date": "March 5, 2014",
+    "title": "Switzerland",
+    "description": "Non-core dev part of Ethereum team moves to the house in Grienbachstrasse in Zug, Switzerland",
+    "link": "",
+    "people": "Mihai Alisie, Roxana Sureanu, Charles Hoskinson, Jeremy Wood, Taylor Gerring, Mathias Gronneabaek, Stephan Tual, others"
+     },
   {
     "date": "April 1, 2014",
     "title": "Yellow Paper",
@@ -78,7 +78,7 @@ export const EVENT_LIST: IEvent[] = [
   },
   {
     "date": "May 1, 2014",
-    "title": "U.S Investors",
+    "title": "U.S. Investors",
     "description": "Ethereum retains New York-based law firm Pryor Cashman for help on deciding whether they should sell ether to U.S. investors",
     "link": "",
     "people": "Steven Nerayoff, Joe Lubin, Jeffrey Alberts"
@@ -121,7 +121,7 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "July 30, 2015",
     "title": "Frontier",
-    "description": "Frontier,\" the first live version of the Ethereum network is released.",
+    "description": "Frontier, the first live version of the Ethereum network is released.",
     "link": "https://blog.ethereum.org/2015/07/30/ethereum-launches/",
     "people": ""
   },
@@ -142,28 +142,28 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "November 19, 2015",
     "title": "Birth of ERC20",
-    "description": "@feindura wrote a specification for a token standard previously proposed by @vitalikbuterin and posted in on GitHub as an ERC. Thusm the ERC20 token standard was born.",
+    "description": "@feindura wrote a specification for a token standard previously proposed by @vitalikbuterin and posted in on GitHub as an ERC. Thus, the ERC20 token standard was born.",
     "link": "https://github.com/ethereum/EIPs/issues/20",
     "people": "Fabian Vogelsteller, Vitalik Buterin"
   },
   {
     "date": "March 14, 2016",
     "title": "Homstead",
-    "description": "Homestead,\" Ethereum's first production-ready version is launched.",
+    "description": "Homestead, Ethereum's first production-ready version is launched.",
     "link": "http://ethdocs.org/en/latest/introduction/the-homestead-release.html",
     "people": ""
   },
   {
     "date": "April 1, 2016",
     "title": "The DAO",
-    "description": "The @The_DAO_Project was created after Cristoph Jentzsch wrote the whitepaper, Slock.it put in open source code and tested it, and security firm Deja Vu audited it.",
+    "description": "The @The_DAO_Project was created after @ChrJentzsch wrote the whitepaper, Slock.it put in open source code and tested it, and security firm Deja Vu audited it.",
     "link": "",
     "people": "Christoph Jentzsch"
   },
   {
     "date": "April 30, 2016",
     "title": "The DAO",
-    "description": "The DAO's four-week fundraiser starts. 12 million ether, or about $150 million was raised.",
+    "description": "The DAO's four-week fundraiser starts. 12 million ether, or about $150 million, was raised.",
     "link": "",
     "people": ""
   },
@@ -191,21 +191,21 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "July 20, 2016",
     "title": "The DAO Refund",
-    "description": "@ethereum hard forks to return funds to The DAO investors. This results in two chains, Ethereum and Ethereum Classic (@eth_classic)",
+    "description": "@ethereum hard forks to return funds to The DAO investors. The new chain becomes Ethereum and the old chain keeps growing and came to be known as Ethereum Classic (@eth_classic)",
     "link": "",
     "people": ""
   },
   {
     "date": "September 18, 2016",
     "title": "DoS Attack",
-    "description": "@ethereum suffers a DoS attack as Devcon 2 was about to start in Shanghai. Ethereum devs issue a quick fix.",
+    "description": "@ethereum suffers a DoS attack as Devcon 2 was about to start in Shanghai. Ethereum devs issue a quick fix right before the conference started.",
     "link": "https://www.reddit.com/r/ethereum/comments/53fbi0/geth_1412_from_shanghai_with_love_hotfix_for/",
     "people": "Martin Holst Swende, Peter Szilagyi"
   },
   {
     "date": "October 18, 2016",
     "title": "Tangerine Whistle Hard Fork",
-    "description": "“Tangerine Whistle” hard fork implemented to reset the gas costs that were enabling attacks. Devs repelled attacks on clients and the network for a full month.",
+    "description": "Tangerine Whistle hard fork implemented to reset the gas costs that were enabling attacks. Devs repelled attacks on clients and the network for a full month.",
     "link": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-608.md",
     "people": ""
   },
@@ -219,7 +219,7 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "November 22, 2016",
     "title": "Spurious Dragon Hard Fork",
-    "description": "Spurious Dragon\" hard fork is implemented to trim the millions of the useless transactions dumped on the network during the Shanghai attacks.",
+    "description": "Spurious Dragon hard fork is implemented to trim the millions of the useless transactions dumped on the network during the Shanghai attacks.",
     "link": "https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/",
     "people": ""
   },
@@ -254,15 +254,15 @@ export const EVENT_LIST: IEvent[] = [
   {
     "date": "October 16, 2017",
     "title": "Byzantine Hard Fork",
-    "description": "The \"Byzantium\" hard fork wa simplemented, paving the way for proof of stake",
+    "description": "The Byzantium hard fork was simplemented, paving the way for proof of stake",
     "link": "https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/",
     "people": ""
   },
   {
     "date": "November 1-4, 2017",
     "title": "Devcon 3",
-    "description": "Devcon 3 in Cancun",
-    "link": "",
+    "description": "Devcon 3 was held in Cancun with about 2,000 attendees, or double Devcon 2 participants",
+    "link": "https://blog.ethereum.org/2017/11/16/devcon3/",
     "people": ""
   },
   {
@@ -312,6 +312,13 @@ export const EVENT_LIST: IEvent[] = [
     "title": "Constantinople Hard Fork",
     "description": "Ethereum Constantinople/St. Petersburg hard fork",
     "link": "https://blog.ethereum.org/2019/02/22/ethereum-constantinople-st-petersburg-upgrade-announcement/",
+    "people": ""
+  },
+  {
+    "date": "May 1, 2019",
+    "title": "Eth 2.0 Progress",
+    "description": "@prylabs releases public testnet for Ethereum 2.0’s proof of stake beacon chain to the community",
+    "link": "https://medium.com/prysmatic-labs/ethereum-2-0-phase-0-testnet-release-1e9e682db910",
     "people": ""
   }
 ]
