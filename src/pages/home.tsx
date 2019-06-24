@@ -39,7 +39,7 @@ class Home extends React.Component {
             <h1>The History of Ethereum</h1>
             <h2>
               This website aims to be a digital history book 
-              about the movement we today know as Etheruem.
+              about the movement we today know as Ethereum.
             </h2>
           </div>
         </div>

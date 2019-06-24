@@ -15,10 +15,7 @@ const styles = StyleSheet.create({
   itemsContainer: {
     display: 'flex',
     color: 'white',
-    flexDirection: 'row',
-    '@media (max-width: 750px)': {
-      display: 'none'
-    }
+    flexDirection: 'row'
   },
   menuItem: {
     fontWeight: 500,
