@@ -28,7 +28,7 @@ export const EVENT_LIST: IEvent[] = [
     "people": "Gavin Wood"
   },
   {
-    "date": "January 7, 2014",
+    "date": "January 20, 2014",
     "title": "Miami",
     "description": "Those who initially responded to Vitalik's whitepaper and about a dozen others meet in a house in Miami rented by Anthony Di Iorio",
     "link": "",
@@ -84,7 +84,7 @@ export const EVENT_LIST: IEvent[] = [
     "people": "Steven Nerayoff, Joe Lubin, Jeffrey Alberts"
   },
   {
-    "date": "June 1, 2014",
+    "date": "June 7, 2014",
     "title": "Leadership Change",
     "description": "@IOHK_Charles and Amir Chetrit are replaced with Taylor Gerring and Stephan Tual in the leadership team. Vitalik Buterin decides Ethereum should be a non-profit foundation.",
     "link": "",
