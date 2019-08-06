@@ -105,7 +105,7 @@ export const EVENT_LIST: IEvent[] = [
     "people": ""
   },
   {
-    "date": "December 24, 2014",
+    "date": "November 24, 2014",
     "title": "Devcon 0",
     "description": "Devcon 0 is held in the EthDev office in Berlin. It was a couple of dozen people that fit in a single room.",
     "link": "https://www.reddit.com/r/ethereum/comments/2nle7m/community_update_whats_going_on_devcon0/",
